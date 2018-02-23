@@ -1,8 +1,39 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body,h1,h2,h3,h4,h5,h6,a {
+  font-family: "Raleway", sans-serif;
+  color: #000;
+}
+body, html {
+    height: 100%;
+    background-color: #edf1f5;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #272c33;
+    overflow-x: hidden;
+    padding: 10px 20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d3d4d6;
+    display: block;
 }
 
-a {
-  color: #00B7FF;
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.navbar {
+  background-color: #fff;
+  margin-left: 200px;
+  padding: 0px 20px;
+}
+.navbar-default .navbar-nav>li>a {
+  background-color: #272c33;
+  color: #d3d4d6;
 }
