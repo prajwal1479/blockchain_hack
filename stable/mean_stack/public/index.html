@@ -1,13 +1,37 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<title>HashPlay</title>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/font-awesome.min.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
     <script src="javascripts/home.js"></script>
 </head>
 <body ng-app = "hashplay">
-<center>
-	<div ng-view></div>
-</center>
+	<!-- Side navigation -->
+<div ng-view>
+	<div class="sidenav">
+  	<a href="#" style="border-bottom: 1px solid #4e4e52;">Hashplay</a>
+  	<a href="#">MarketPlace</a>
+  	<a href="#">Artists</a>
+  	<a href="#">Collection</a>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">User</a></li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- page content here-->
+	<div class="well">
+		<div>
+<!-- -->
+</div>
+
+
+
 </body>
 </html>
