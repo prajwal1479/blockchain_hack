@@ -26,8 +26,63 @@
 	</nav>
 
 <!-- page content here-->
-	<div class="well">
-		<div>
+<div class="container right">
+	<div class="row">
+		<div class="container-fluid well well1 col-lg-8" id="registration">
+			<h3 class="text-center text-primary">Artist Registration</h3>
+			<div class="padding-40">
+			<table>
+				<tr>
+					<td class="padding-20">
+						<h4>Name: <input style="margin-left:112px;" type="text" name="name"></h4>
+					</td>
+				</tr>
+				<tr>
+					<td class="padding-20">
+						<h4>Artist type: <input style="margin-left:80px;" type="text" name="artist_type"></h4>
+					</td>
+				</tr>
+				<tr>
+					<td class="padding-20">
+						<h4>Intro: <input style="margin-left:124px;" type="text" name="intro"></h4>
+					</td>
+				</tr>
+			</table>
+		</div>
+			<button class="btn-info center-block">Apply verification</button>
+		</div>
+		<div class="col-lg-3 container-fluid well well-sm">
+			<center>
+				<img class="padding-20" src="img/image.png"><br>
+					<input type="file" name="image">
+				</center>
+		</div>
+	</div>
+		<!--	-->
+	<!--use ngShow and nghide to manage the registration and creations section.-->
+	<div class="container-fluid well well-bg" id="creations">
+		<h3 class="text-center text-primary">My Art</h3>
+		<div class="padding-40">
+		<table class="table table-bordered table-striped">
+			<tr>
+				<th>Name</th>
+				<th>Type</th>
+				<th>Copies</th>
+				<th>Sold</th>
+				<th>Holding</th>
+				<th>Sell price</th>
+			</tr>
+			<tr>
+				<td>vasa</td>
+				<td>Sketch</td>
+				<td>10</td>
+				<td>0</td>
+				<td>10</td>
+				<td>$1000</td>
+			</tr>
+		</table>
+	</div>
+	</div>
 <!-- -->
 </div>
 
