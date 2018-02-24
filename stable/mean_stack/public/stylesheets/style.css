@@ -1,10 +1,11 @@
 body,h1,h2,h3,h4,h5,h6,a {
   font-family: "Raleway", sans-serif;
-  color: #000;
+  color: #8e9093;
 }
 body, html {
     height: 100%;
     background-color: #edf1f5;
+    font-size: 18px;
 }
 .sidenav {
     height: 100%;
@@ -27,6 +28,7 @@ body, html {
 
 .sidenav a:hover {
     color: #f1f1f1;
+
 }
 .navbar {
   background-color: #fff;
@@ -36,4 +38,26 @@ body, html {
 .navbar-default .navbar-nav>li>a {
   background-color: #272c33;
   color: #d3d4d6;
+}
+.right {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.well1 {
+  margin: 30px 60px;
+  width: 50%;
+}
+.well-bg {
+  margin: 10px 45px;
+  padding-top: 0px;
+  width: 90%;
+}
+.well-sm {
+  margin: 30px 60px;
+}
+.padding-40 {
+  padding: 5px;
+}
+.padding-20 {
+  padding: 5px;
 }
